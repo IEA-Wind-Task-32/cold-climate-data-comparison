@@ -65,7 +65,7 @@ str_year = "2015" #2020
 #List of heights that we want to evaluate
 list_heights = ["80"]#,"60","80","100","120","140","160","180","200"]
 # Path directory where lidar data files are saved
-str_pathDirectory_lidar = ""
+str_pathDirectory_lidar = "./lidarData/"
 
 ###################################################
 #### PARAMETERS TO CHANGE MANUALLY - Met Mast #####
@@ -74,7 +74,7 @@ str_pathDirectory_lidar = ""
 # Each code refers to a specific condition (ex.:R101 -> No Data, R104 -> instruments under maintenance)
 list_dropColumn_CQ = ["R101","R103","R104","R105","R201","R202","R203","R204","R205","R206"]#,"R301","R303","R401","R403"]
 #Path Directory where CQ files are saved
-str_pathDirectory_CQ = "./"
+str_pathDirectory_CQ = "./metMastData/"
 # Height Filter in the CQ file name / In that case, height of 80m is chosen
 str_filesFilter="*mmv1*Ht80m*"
 

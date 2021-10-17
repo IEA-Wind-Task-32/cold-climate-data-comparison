@@ -56,9 +56,9 @@ start_time = time.time()
 temp_bin = 1 # temprature bin
 RHH_bin = 1 # Relative humidity bin
 # data paths
-lidar_data_path = "./80m_2015_dataWindCube.pkl"
-mmv1_data_path = "./*80m*.csv"
-mmv2_data_path = "./*78m*.csv"
+lidar_data_path = "./lidarData/80m_2015_dataWindCube.pkl"
+mmv1_data_path = "./metMastData/*80m*.csv"
+mmv2_data_path = "./metMastData/*78m*.csv"
 # Quality control codes
 Droped = ["R101","R103","R104","R105","R201","R202","R203","R204","R205","R206"]
 
